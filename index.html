@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pedra, Papel, Tesoura</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Pedra, Papel, Tesoura</h1>
+        <div id="game">
+            <div id="options">
+                <button class="btn" onclick="chooseOption('pedra')">
+                    <img src="pedra.png" alt="pedra">
+                </button>
+                <button class="btn" onclick="chooseOption('papel')">
+                    <img src="papel.png" alt="papel">
+                </button>
+                <button class="btn" onclick="chooseOption('tesoura')">
+                    <img src="tesoura.png" alt="tesoura">
+                </button>
+            </div>
+            <div id="result"></div>
+            
+            <p><a href="difficulty.html">Escolher Dificuldade</a></p>        
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="difficulty.js"></script>
+</body>
+</html>
