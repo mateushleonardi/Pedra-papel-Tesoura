@@ -29,7 +29,7 @@ body {
 
 
 .btn img {
-    width: 100px; /* Ajuste o tamanho conforme necessário */
+    width: 100px; 
     height: auto;
 }
 
@@ -83,7 +83,7 @@ a {
     cursor: pointer;
     border-radius: 5px;
     margin: 0 10px;
-    display: inline-block; /* Adicionado para que as larguras dos botões se ajustem ao conteúdo */
+    display: inline-block; 
 }
 
 a:hover {
@@ -96,7 +96,7 @@ a:hover {
 
 
 
-/* Adicionado para destacar visualmente as áreas clicáveis */
+
 a, button {
     transition: background-color 0.3s;
 }
