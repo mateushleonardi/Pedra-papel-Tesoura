@@ -5,16 +5,17 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #e4e4e4;
 }
 
 .container {
     text-align: center;
+    padding: 100px;
+    background-color: #ffffff;
+    box-shadow: 10px 15px 15px 5px;
+    border-radius: 30px;
 }
 
-h1 {
-    color: #bd1414;
-}
 
 #game {
     margin-top: 20px;
@@ -25,13 +26,7 @@ h1 {
     justify-content: space-around;
 }
 
-.btn {
-    background-color: #3498db;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-}
+
 
 .btn img {
     width: 100px; /* Ajuste o tamanho conforme necessário */
@@ -43,15 +38,7 @@ h1 {
     font-size: 18px;
     color: #333;
 }
-body {
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-}
+
 
 .container {
     text-align: center;
@@ -66,7 +53,7 @@ h1 {
 }
 
 .btn {
-    background-color: #3498db;
+    background-color: #4d4d4d;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -75,43 +62,21 @@ h1 {
 }
 
 .btn:hover {
-    background-color: #2980b9;
+   padding: 15px;
+   transition: 0.5s;
 }
+
+
+
+
+
+
+
 
 a {
     text-decoration: none;
     color: #333;
     font-size: 16px;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-body {
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-}
-
-.container {
-    text-align: center;
-    padding: 20px; /* Adicionado para melhorar a aparência */
-}
-
-h1 {
-    color: #333;
-}
-
-#difficulty-options {
-    margin-top: 20px;
-}
-
-.btn,
-a {
     background-color: #3498db;
     border: none;
     padding: 10px;
@@ -121,20 +86,15 @@ a {
     display: inline-block; /* Adicionado para que as larguras dos botões se ajustem ao conteúdo */
 }
 
-.btn:hover,
 a:hover {
     background-color: #2980b9;
+    font-size: 20px;
+    transition: 0.5s;
 }
 
-a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-}
 
-a:hover {
-    text-decoration: underline;
-}
+
+
 
 /* Adicionado para destacar visualmente as áreas clicáveis */
 a, button {
